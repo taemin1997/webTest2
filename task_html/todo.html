@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>todo</title>
+  <link rel="stylesheet" href="todo.css">
+  <script defer src="todo.js "></script>
+</head>
+<body>
+  <header>
+    <!-- header의 타이틀 -->
+    <div class="title">
+      <h1>To-Do List</h1>
+    </div>
+    <!-- 할일 목록들 작성하는 리스트들 -->
+    <div class="lists">
+      <ul>
+        <li>
+          <a href="#">지난 할일 목록</a>
+          <hr class="list-hr">
+        </li>
+        <li>
+          <a href="#">오늘 할일 목록</a>
+          <hr class="list-hr">
+        </li>
+        <li>
+          <a href="#">내일 할일 목록</a>
+          <hr class="list-hr">
+        </li>
+      </ul>
+    </div>
+  </header>
+  <main>
+    <!-- main div -->
+    <div class="main">
+      <!-- main에 있는 title -->
+      <div id="main-tasks">
+        <h3>Tasks</h3>
+        <!-- <input type="text"> -->
+      </div>
+      <!-- task들 추가될 빈 박스 -->
+      <div id="task-items">
+      </div>
+      <!-- task 추가할 버튼 -->
+      <div class="main-btn">
+        <button type="button" id = "task-btn">
+          할 일 추가
+        </button>
+      </div>
+  </div>
+  </main>
+</body>
+</html>

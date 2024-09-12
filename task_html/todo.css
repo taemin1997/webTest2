@@ -1,0 +1,107 @@
+/* 전체 margin, padding 0 설정 */
+*{
+  padding: 0;
+  margin: 0;
+}
+/* 리스트 동글뱅이 없애기 */
+li{
+  list-style: none;
+}
+/* a태그 밑줄 없애기 */
+a{
+  text-decoration: none;
+}
+/* 전체 버튼 디자인 */
+button[type="button"]{
+  width: 70px;
+  height: 40px;
+}
+/* header 부분 디자인 */
+header{
+  width: 100%;
+  height: 240px;
+  background-color: forestgreen;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+/* header에 있는 To-Do List 부분하기*/
+.title{
+  margin:40px 0;
+  color: white;
+}
+/* header에 있는 지난 목록, 오늘 할일, 내일 목록 디자인 */
+.lists{
+  margin-top: 20px;
+  display: flex;
+  /* border: 1px solid black; */
+  width: 50%;
+  /* align-items: center; */
+  justify-content: center;
+}
+/* header에 있는 위에 3개 부분 가로 정렬 */
+.lists ul{
+  display: flex;
+}
+/* header에 있는 서로서로 띄어주기 */
+.lists li{
+  margin-right: 25px;
+}
+/* 3개 글자 디자인하기 */
+.lists a{
+  color: white;
+  font-size: 20px;
+}
+/* header에 있는 3개 글자 밑에 밑줄 디자인 */
+.list-hr{
+  margin-top: 10px;
+  color: white;
+}
+/* main 부분 디자인 */
+main{
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: darkgray;
+}
+/* 메인이라 이름 준 div 디자인 */
+/* 하얀색 task랑 할일 추가 버튼 있는 부분 */
+.main{
+  width: 45%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  background-color: white;
+  position: relative;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+/* main에 있는 task라는 글자 디자인 */
+#main-tasks{
+  margin-top: 20px;
+  /* border: 1px solid red; */
+  /* padding-bottom: 50px; */
+  /* margin-bottom: 30px; */
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+/* main에 있는 task-items 박스 */
+#task-items{
+  display: flex;
+  flex-direction: column;
+}
+/* main에 있는 할일 추가 버튼 */
+.main-btn{
+  margin-top: 20px;
+  /* border: 1px solid red; */
+  /* position: absolute;
+  bottom: 25%; */
+}
